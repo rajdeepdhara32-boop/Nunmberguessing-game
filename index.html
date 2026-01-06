@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Guess Game v2</title>
+<link rel="stylesheet" href="st.css">
+</head>
+
+<body class="dark">
+
+<div class="card">
+    <h1>🎯 Guess It!</h1>
+    <p>Number between <b>0 – 100</b></p>
+
+    <select id="theme">
+        <option value="dark">🌙 Dark</option>
+        <option value="light">🌤 Light</option>
+        <option value="neon">🔥 Neon</option>
+    </select>
+
+    <input type="number" id="guess" placeholder="Enter number">
+    <button id="submit">Guess</button>
+
+    <div class="result" id="result"></div>
+
+    <div class="stats">
+        ⏱ <span id="time">60</span>s |
+        🎯 <span id="tries">0</span> tries
+    </div>
+
+    <div class="leaderboard" id="board"></div>
+
+    <button id="restart">Restart</button>
+</div>
+
+<script src="jj.js">
+
+</script>
+
+</body>
+</html>
